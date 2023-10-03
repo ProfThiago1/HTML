@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body{
+    font: normal 14pt Arial;
+    color: white;
+    background-color: black;
+}
+#principal {
+    color: white;
+    text-align: center;
+    background-color: rgb(115, 188, 252);
+    text-shadow: 2px 2px 0.5px black;
+}
+
+h2 {
+    color: rgb(115, 188, 252);
+
+}
+.basic {
+    color: aqua;
+}
+
+.inter {
+    color: aquamarine;
+}
+
+.vanced{
+    color: rgb(39, 39, 255);
+}

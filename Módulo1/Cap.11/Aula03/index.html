@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aúdio no site</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas e áudio </h1>
+<picture>
+    <source media="(max-width:700px )" srcset="../Aula02/foto-p.png" type="image/png">
+    <source media="(max-width:1050px )" srcset="../Aula02/foto-m.png" type="image/png">
+<img src="../Aula02/foto-g.png" alt="">
+</picture>
+
+
+
+
+<h1> Colocando áudio no site </h1>
+<audio src="happy-mistake.mp3" autoplay controls></audio>
+
+<!-- Segunda opção abaixo -->
+<h1>Ouça o nosso podcast</h1>
+<audio preload="metadata" autoplay controls>
+
+<source src="guanacast-33.mp3" type="audio/mpeg">
+<!--Caso seja possível, disponibilizar o áudio em multiplos formatos, como mp3, ogg, wav; este último deve ser evitado pois é muito grande -->
+
+<p> Este áudio não pode ser reproduzido pelo seu navegador. <a href="guanacast-33.mp3">Clique aqui</a> e baixe-o. </p>
+
+</audio>
+<p> Baixe agora o nosso podcast <mark><a href="guanacast-33.mp3" download="guanacast-33.mp3" type="aplication/mpeg">clicando aqui</a></mark>.</p>
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title> Listas  </title>
+    <style>
+       
+       
+       h2{
+            font-size: 14pt;
+            font-family: Arial;
+        }
+
+        h3{
+            font-family: Arial;
+        }
+        body{
+            font-family: Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="font-family: Arial;"> Trabalhando com listas </h1>
+    <h2> Listas ordenadas (a ordem importa)</h2>
+    <ol> <!-- aqui, o parâmetro type ="" nos diz o tipo de ordenamento, se numérica na base decimal, se alfabético, se em números romanos. E o start ="" nos diz a partir de qual número - Oou letra - começar a contar. -->
+        <li>Tarefa 1
+        <li>Tarefa 2
+        <li>Tarefa 3</li>
+        <li>Tarefa 4</li>
+        
+    </ol>
+
+    <h2> Listas não ordenadas</h2>
+    <ul type="circ"> <!-- aqui, o parâmetro type ="" nos diz o tipo de ordenamento, se circ, circle, square. E o start ="" nos diz a partir de qual número - Oou letra - começar a contar. -->
+        <li> Tarefa 1
+        <li> Tarefa 2
+        <li> Tarefa 3
+        <li> Tarefa 4
+    </ul>
+
+
+    <h2> Listas mistas e de Definição </h2>
+    <h3> Juntando listas (ordenadas E NÃO ordenadas) por meio de aninhamento </h3>
+    <ol>
+        <li> Minhas comidas preferidas
+            <ol type="a">
+                <li> Lasanha
+                <li> Bolo (qualquer um)
+                <li> Tudo de frango (louve ao senhor)
+            </ol>
+        <li> Linguagens que estou aprendendo
+            <ol type="a" start="4">
+                <li> Python
+                <li> JavaScript
+            </ol>
+    </ol>
+
+    <ul type="circ">
+        <li> Livros de Física que gosto
+            <ul>
+                <li> Tipler
+                <li> Alaor Chaves
+                <li> Halliday
+            </ul>
+    </ul>
+
+<h2> Lista de Definição </h2>
+<dl>
+    <dt>  <strong>HTML</strong>  </dt>
+    <dd> linguagem de criação de conteúdo  </dd>
+
+    <dt>   <strong>CSS </strong>    </dt>
+    <dd>  Linguagem responsável pelo estilo do texto/conteúdo </dd>
+
+    <dt>     <strong> JavaScript </strong>        </dt>
+    <dd> Linguagem de programação responsável pela interação do site </dd>
+</dl>
+
+</body>
+</html>
