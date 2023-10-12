@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 02</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightcyan;
+        }
+        table {
+            margin: auto;
+            padding: 15px;
+            width: 300px;
+            border-collapse: collapse;
+            border: 1px solid black;
+        }
+        thead{
+            color: white;
+            background-color: lightblue;
+        }
+        tbody >tr:nth-child(even){
+            background-color: aliceblue;
+        }
+        th {
+            background-color:lightblue;
+            padding: 5px;
+            border: 1px solid black;
+        }
+        td {
+            padding: 5px;
+            border: 1px solid black;
+        }
+        td.num{
+            text-align: right;
+        }
+        tfoot{
+            color: white;
+            background-color: lightblue;
+        }
+        a{
+            font-weight: bolder;
+            text-decoration: none;
+            color: rgb(0, 136, 255);
+        }
+        a:hover{
+            text-decoration: underline rgb(204, 226, 245);
+        }
+        main{
+            box-shadow:  1px 0px 13px rgba(0, 0, 0, 0.212);
+            border-radius: 5px;
+            background-color: white;
+            margin: auto;
+            width: 600px;
+            
+        }
+        main >h1{
+            padding-top: 10px;
+            text-align: center;
+        }
+
+        main > p {
+            padding: 10px;
+        }
+   
+    </style>
+</head>
+<body>
+    <main>
+        <h1> Usando tabelas grandes</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th> Unidade Federativa</th>
+                    <th>População</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                  <td> São Paulo </td>
+                  <td class="num"> 44 420 459</td>
+                </tr>
+                <tr>
+                  <td> Minas Gerais </td>
+                  <td class="num"> 20 538 718</td>
+                </tr>
+                <tr>
+                  <td> Rio de Janeiro </td>
+                  <td class="num"> 16 054 524</td>
+                </tr>
+                <tr>
+                  <td> Bahia </td>
+                  <td class="num"> 14 136 417</td>
+                </tr>
+                <tr>
+                  <td> Paraná </td>
+                  <td class="num"> 11 443 208</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>Total</th>
+                    <td class="num"> <strong>106 593 326</strong></td>
+                </tr>
+            </tfoot>
+        </table>
+        <p> Os outros estados e suas respectivas populações podem ser encontradas neste <a href="https://pt.wikipedia.org/wiki/Lista_de_unidades_federativas_do_Brasil_por_popula%C3%A7%C3%A3o" target="_blank">link 🔗</a>.</p>
+    </main>
+</body>
+</html>
